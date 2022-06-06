@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <!--
+
             <TextView
                 android:id="@+id/tv_logo"
                 android:layout_width="wrap_content"
@@ -33,19 +33,22 @@
                 android:textSize="18sp"
                 app:srcCompat="@drawable/ic_baseline_density_medium_24"
                 android:text="TruckMap" />
-            -->
 
-            <androidx.constraintlayout.utils.widget.ImageFilterView
+            <!--
+            <ImageView
                 android:id="@+id/main_logo_imageView"
-                android:layout_width="550px"
+                android:layout_width="250px"
+                android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
                 android:src="@drawable/truckmap_logo2"
-                app:layout_constraintVertical_bias="0.37" />
+                 />
+            -->
 
             <View
                 android:layout_width="0dp"
